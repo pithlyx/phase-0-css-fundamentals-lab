@@ -1,5 +1,38 @@
 body {
+  background-color: slategray;
   width: 100%;
   height: 100%;
   margin: 0;
+}
+header {
+  text-align: center;
+}
+header a{
+  padding: 0em 10px 0em;
+  color: black;
+}
+
+#featured-property {
+  text-align: center;
+}
+#featured-property figcaption{
+  font-size: .75em;
+}
+#featured-property p {
+  margin: auto;
+  width: 800px;
+  padding: .5em 0em;
+}
+
+#details div{
+  background-color: darkslategrey;
+  text-align: center;
+  float: left;
+  width: 25%;
+}
+#details div h3{
+  color: rgb(167, 196, 196)
+}
+#details div a, #details div p{
+  color: rgb(133, 154, 176);
 }
